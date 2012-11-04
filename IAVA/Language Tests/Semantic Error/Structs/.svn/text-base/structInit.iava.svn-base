@@ -1,0 +1,7 @@
+struct S {
+	integer x;
+};
+
+struct S s = {4,6}; // error - can initialize arrays only
+
+integer y = {5};

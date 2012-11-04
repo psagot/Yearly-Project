@@ -1,0 +1,7 @@
+// Notice that return value of 'f' is lost here.
+
+g();
+
+void g() { f(); }
+
+string f() {$ = "abc";}		

@@ -1,0 +1,4 @@
+for(integer y; y < 5; y++) {
+		integer x = 5;
+}
+writeln(x);

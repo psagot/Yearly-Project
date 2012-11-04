@@ -1,0 +1,17 @@
+write("start");
+
+integer i = 0;
+while(i < 100)
+	if (i == 5)
+		break;
+	else
+		i++;
+break; // error - break outside loop is forbidden
+
+do {
+	i++;
+	break; // ok here
+	continue; // ok here
+} while(true);
+
+

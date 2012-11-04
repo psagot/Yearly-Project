@@ -1,0 +1,3 @@
+while(true)
+		integer x = 5;
+writeln(x);

@@ -1,0 +1,14 @@
+struct B {
+	integer a[2][2][2][2];
+};
+
+struct A {
+	struct B b;
+	integer v[2][2];
+
+};
+
+struct A a1[5];
+struct A a2[5][5];
+
+a2[2][2].v;

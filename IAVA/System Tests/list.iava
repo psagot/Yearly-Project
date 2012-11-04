@@ -1,0 +1,39 @@
+struct Node {
+	struct Node next;
+	integer number;	
+};
+
+struct Node newNode() {} // Notice that this should create new Node and return it! Which meant that constructor is invoked on $ automatically.
+
+
+struct Node root; // Notice - when creating the node, it's members are not created with new. This is to prevent overflows.
+root.number = 9999;
+
+struct Node current = root;  // Will this invoke constructor? Anyways it should put reference to "root" insde "current".
+for(integer i = 0; i < 100; i++) { 
+	current.next = newNode();
+	current.next.number = i;
+	current = current.next;
+}
+
+
+integer listSize(struct Node n) {
+	$ = 0;
+	struct Node cur = n;	
+	while(cur != null) {
+		$++;
+		cur = cur.next;
+	}
+}
+
+write("Created linked list with ");
+write(listSize(root));
+write(" nodes");
+writeln();
+
+
+
+
+
+
+

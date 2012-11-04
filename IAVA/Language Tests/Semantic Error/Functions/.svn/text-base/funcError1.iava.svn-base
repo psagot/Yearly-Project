@@ -1,0 +1,4 @@
+void func(integer i) {
+}
+
+func("hello");

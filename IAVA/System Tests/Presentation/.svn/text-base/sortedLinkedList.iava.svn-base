@@ -1,0 +1,104 @@
+struct Node {
+	struct Node next;
+	integer value;	
+};
+
+
+///Prints the list elements
+void printList(struct Node root) {
+	if (root.next == null) {
+	    writeln("Empty List");
+	    return;
+	}
+	else {    
+	  struct Node cur = root.next;	
+	  while(cur != null) {
+          write(cur.value + " --> ");
+		  cur = cur.next;
+	  }	
+	  writeln("end");
+	}
+}
+
+
+///Inserts a new node with the value "value" to the list.
+void insertNode(struct Node root, integer value) {
+
+   struct Node newNode;
+   newNode.value = value;
+   
+   if (root.next == null) {    //List is empty
+       root.next = newNode;
+       newNode.next = null;  
+       return;   
+   }
+
+   struct Node current = root.next, previous = root;
+   while(current != null) {
+       if(current.value >= value) {
+           newNode.next = previous.next;
+           previous.next = newNode;
+           return;
+       }
+       
+       previous = current;
+       current = current.next;
+   }
+   
+   newNode.next = previous.next;
+   previous.next = newNode;
+}
+
+///Inserts a new node with the value "value" to the list.
+void removeNode(struct Node root, integer value) {
+   
+   if (root.next == null) {    //List is empty
+       writeln("No element with value " + value + " exists.");
+       return;   
+   }
+   
+   struct Node current = root.next, previous = root;
+   while(current != null) {
+       if(current.value == value) {
+           previous.next = current.next;
+           return;
+       }
+       
+       previous = current;
+       current = current.next;
+   }
+   
+   writeln("No element with value " + value + " exists.");
+}
+
+
+struct Node root; 
+integer userChoice;
+writeln("WELCOME! To the IAVA linked list experience...");
+while(true) {
+
+    printList(root);
+    write("Type you choice (1 to insert an element, 2 to remove, -1 to quit): ");
+    userChoice = readInt();
+    
+    if(userChoice==-1) break;
+    
+    else if(userChoice==1) {
+        write("Type the element's value: ");
+        userChoice = readInt();
+        insertNode(root, userChoice);
+    }
+    
+    else if(userChoice==2) {
+        write("Type the element's value: ");
+        userChoice = readInt();
+        removeNode(root, userChoice);
+    }
+    
+    else 
+        writeln(" Illegal Choice.");
+          
+}
+
+writeln("Bye Bye");
+

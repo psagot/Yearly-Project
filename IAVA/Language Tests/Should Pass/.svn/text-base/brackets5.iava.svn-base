@@ -1,0 +1,4 @@
+// Notice - I am not sure if this is should be allowed
+
+string s;
+s = ("abcd");

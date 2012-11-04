@@ -1,0 +1,7 @@
+Compilation started!
+Compilation ended with errors!
+
+Error #1: Error in file: parser.IavaTreeWalker  line 5:0 -  Error: local var with the name z already exist.
+Error #2: Error in file: parser.IavaTreeWalker  line 34:2 -  Error: local var with the name y already exist.
+Semantic errors found. Terminating...
+Compilation process failed. Please view the compilation errors.

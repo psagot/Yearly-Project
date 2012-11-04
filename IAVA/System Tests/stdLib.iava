@@ -1,0 +1,24 @@
+string s1 = "string";
+string s2 = "String";
+if(strCmp(s1,s2) > 0)
+	writeln("string is bigger then String");
+else if(strCmp(s1,s2) == 0)
+	writeln("string is same as String");
+else
+	writeln("String is bigger then string");
+if(strCmp(s1,"string") == 0)
+	writeln("string is same as string");
+writeln("the concatenation of string and String is " + strConcat(s1, s2));
+if(strLen(s1) == strLen(s2) && strLen(s2) == strLen("aaaaaa") && strLen(s1) == (strLen("abcde") + 1))
+	writeln("strlen passed");
+char[] charArray = {'t', 'e', 's', 't'};
+string s = "";
+for(integer i=0; i<arrayLength(charArray); i++) {
+	s = s + charToStr(charArray[i]);
+}
+writeln(s);
+char[] newCharArray = strToArr(s);
+for(integer i=0; i<strLen(s); i++) {
+	write(newCharArray[i]);
+}
+writeln("");

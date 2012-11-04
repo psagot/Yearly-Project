@@ -1,0 +1,43 @@
+
+///Tests use of StdLib functions:
+
+void stdlib() {
+	
+	/** Strings */
+	string s1 = "Hello";
+	string s2 = "Goodbye";
+	if (strCmp(s1,s2) >= 0)
+		writeln("strCmp is wrong...");
+	
+	writeln("s1 length is" + strLen(s1));
+	writeln("s2 length is" + strLen(s2));
+	writeln("s1+s2 length is" + strLen(strConcat(s1,s2)));
+	
+	char cArr[10];
+	cArr = strToArr(s1);
+	
+	/** IO */	 
+	
+	real d = readReal();
+	integer i = readInt();
+	string s = readString();
+	
+	write(d);
+	write(i);
+	write(s);
+	
+	/** Misc */
+	
+	integer intArr[5];
+	if (arrayLength(intArr) != 5)
+		writeln("Array length is wrong...");
+	
+	integer rand = random(10);
+	
+}
+
+void go() {
+
+	stdlib();
+}
+

@@ -1,0 +1,13 @@
+integer foo(integer i) {
+	//return 7;
+	$ = 7;
+}
+
+void go() {
+	
+	integer i = 0;
+	if (foo(50) != 7) // Notice: function call must be in condition.
+	i = 5;
+}
+
+

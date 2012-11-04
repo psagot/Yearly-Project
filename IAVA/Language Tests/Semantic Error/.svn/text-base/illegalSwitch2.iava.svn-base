@@ -1,0 +1,7 @@
+integer i;
+
+switch(i) {   
+
+case "hello": write("one");	//Bad case type
+
+}

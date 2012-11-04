@@ -1,0 +1,9 @@
+// Array of structs (2)
+
+struct A {
+	integer x;
+};
+
+struct A v[7];
+struct A a;
+a = v[3];

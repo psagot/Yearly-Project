@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="ProjectBuilder"
+         name="Iava Project Builder"
+         point="org.eclipse.core.resources.builders">
+      <builder
+            hasNature="true">
+         <run
+               class="iava.plugin.builder.ProjectBuilder">
+         </run>
+      </builder>
+   </extension>
+   <extension
+         id="ProjectNature"
+         name="Iava Project Nature"
+         point="org.eclipse.core.resources.natures">
+      <runtime>
+         <run
+               class="iava.plugin.builder.ProjectNature">
+         </run>
+      </runtime>
+      <builder
+            id="IavaPlugin.ProjectBuilder">
+      </builder>
+   </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="true"
+            objectClass="org.eclipse.core.resources.IFile"
+            nameFilter="*"
+            id="IavaPlugin.contribution1">
+         <action
+               label="Iava Run "
+               class="iava.plugin.runner.RunAction"
+               menubarPath="additions"
+               enablesFor="+"
+               id="IavaPlugin.addRemoveNatureAction">
+         </action>
+      </objectContribution>
+   </extension>
+   <extension
+         id="xmlProblem"
+         name="XML Problem"
+         point="org.eclipse.core.resources.markers">
+      <super
+            type="org.eclipse.core.resources.problemmarker">
+      </super>
+      <persistent
+            value="true">
+      </persistent>
+   </extension>
+
+
+<extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="iava.plugin.category.wizards"
+            name="Iava">
+      </category>
+      <wizard
+            category="iava.plugin.category.wizards"
+            class="iava.plugin.wizards.ProjectNewWizard"
+            icon="icons/project-folder.png"
+            id="iava.plugin.wizard.new.iava"
+            name="New Iava Project"
+            project="true">
+      </wizard>
+      <wizard
+            category="iava.plugin.category.wizards"
+            class="iava.plugin.wizards.NewFileWizard"
+            icon="icons/file_icon.gif"
+            id="customplugin.wizard.file.deployment"
+            name="New Iava File">
+      </wizard>
+   </extension>
+   <extension
+      point="org.eclipse.ui.actionSets">
+   <actionSet
+         description="Run Iava"
+         id="IavaPlugin.ToolbarAction"
+         label="Launch"
+         visible="true">
+      <action id="runner.RunAction"
+      	  label="Run Iava"
+      	  icon="icons/run.png"
+          toolbarPath="org.eclipse.debug.ui.launchActionSet"
+          tooltip="Launch Iava code"
+          class="iava.plugin.runner.RunAction">
+      </action>
+      <action
+            class="iava.plugin.runner.StopRun"
+            icon="icons/terminate-icon.png"
+            id="IavaPlugin.StopRun"
+            label="Stop Run"
+            toolbarPath="org.eclipse.debug.ui.launchActionSet"
+            tooltip="Stop the Run of your program">
+      </action>
+      <action
+            class="iava.plugin.ShowRunAction"
+            id="IavaPlugin.ShowOutputAction1"
+            label="Output Console"
+            toolbarPath="org.eclipse.debug.ui.launchActionSet"
+            tooltip="See your run&apos;s output">
+      </action>
+      <action
+            class="iava.plugin.ShowBuildAction"
+            id="IavaPlugin.ShowInputAction1"
+            label="Build Console"
+            toolbarPath="org.eclipse.debug.ui.launchActionSet"
+            tooltip="See your build errors">
+      </action>
+   </actionSet>
+</extension>
+<extension
+      point="org.eclipse.ui.editors">
+   <editor
+         class="iava.plugin.editor.IavaEditor"
+         contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+         extensions="iava"
+         icon="icons/editor.png"
+         id="iava.plugin.editor.IavaEditor"
+         name="Iava Editor">
+   </editor>
+</extension>
+
+</plugin>

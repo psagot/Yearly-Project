@@ -1,0 +1,21 @@
+integer a[] = null;
+struct A {
+	integer a;
+	real b;
+	string c;
+	boolean d;
+};
+
+struct A b = null;
+
+if(a == null)
+	write("success");
+	
+if(b == null)
+	b = null;
+	
+if (a != null)
+	a = null;
+	
+if (b!= null)
+	b = null;		

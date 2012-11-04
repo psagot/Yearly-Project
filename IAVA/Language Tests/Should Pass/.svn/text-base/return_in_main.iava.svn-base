@@ -1,0 +1,10 @@
+return;
+
+integer func() {
+$ = 4;
+return;
+}
+
+
+if(true) 
+	return;

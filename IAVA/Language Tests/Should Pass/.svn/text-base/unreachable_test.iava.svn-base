@@ -1,0 +1,30 @@
+/* Never Run This !!! for compilation test only */
+for(;;){
+	writeln("Hello");
+	writeln("World");
+}
+
+for(;;)
+	writeln("Hi");
+
+for(;;);
+	
+while(true);
+
+while(true)
+	writeln("Aloha");
+
+while(true){
+	writeln("Aloha");
+	writeln("Yo");
+}
+do; while(true);
+do
+	writeln("Hello"); 
+	while(true);
+
+do {
+	writeln("Hi");
+}while(true);
+
+writeln("Hello");

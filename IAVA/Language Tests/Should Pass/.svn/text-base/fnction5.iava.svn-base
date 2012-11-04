@@ -1,0 +1,6 @@
+
+// Will return the dafaut value
+integer f() {
+}
+
+integer i = f();

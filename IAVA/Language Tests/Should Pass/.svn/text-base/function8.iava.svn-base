@@ -1,0 +1,10 @@
+integer f(integer x) {
+	$ = g(x);
+}
+
+
+integer g(integer x) {
+	$ = f(x);
+}
+
+g(20);

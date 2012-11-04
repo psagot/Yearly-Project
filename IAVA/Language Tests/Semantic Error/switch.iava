@@ -1,0 +1,12 @@
+integer x;
+
+switch(x) {
+	case(0):
+		integer y;
+	case(1):
+	case(2):
+		integer z;
+		y = z;			///Should be in a different scope
+	default:
+		write("not valid");
+}

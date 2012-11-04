@@ -1,0 +1,39 @@
+
+
+
+
+integer a[2.5];  // array with double index.
+
+void go(){}
+
+void checkArithmetic(){
+	integer a,b,x;
+	real c,d,y;
+	string e,f,z;
+	
+	//should be alright
+	x = a+b;
+	x = a*b;
+	x = a/b;
+	x = a-b;
+	
+	//should fail
+	x = a + c;  //should fail.
+	x = a * c;  
+	x = a / b;
+	c = e / f;
+	
+}
+void checkConditions(){
+	boolean b;
+	integer i;
+	real f;
+	string s;
+	// should be ok
+	while(b) {}
+	for(i=0; i<1;  i++){}
+	//should fail
+	while(f) {}
+	for(i=0; f;  i++){}
+	
+}

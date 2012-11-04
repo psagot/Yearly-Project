@@ -1,0 +1,4 @@
+///Change from the previous test, which wasn't actually an error.
+
+integer arr[5];
+arr[1.5] = 7;

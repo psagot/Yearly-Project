@@ -1,0 +1,5 @@
+boolean a = true;
+boolean b = false;
+
+if (((a && b || (a) || (b))))
+   write("?");

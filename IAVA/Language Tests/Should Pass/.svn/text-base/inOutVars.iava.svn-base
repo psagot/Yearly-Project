@@ -1,0 +1,19 @@
+integer x = 4;
+integer y, z = 5;
+string s = "Hi";
+
+integer func(integer i, boolean b) {
+	integer x = 3;
+	integer y = 1, z;
+	$ = x + i;
+	b = !b;
+}
+
+boolean b = false;
+
+integer i = func(x, b);
+
+if (i == 7)
+	b = true;
+
+writeln(b);

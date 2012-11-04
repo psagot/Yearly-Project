@@ -1,0 +1,19 @@
+
+///Case 1: switch on integer:
+integer x, y;
+
+switch(x) {
+case 1: write("ONE"); y = 1;
+case 2: write("TWO"); y = 2;
+default: write("Not 1,2"); y = -1;
+};
+
+///Case 2: switch on string:
+string s;
+
+switch(s) {
+case "hello": write("Hi!");
+case "hola!": write("Hola!!");
+default: write("Bye Bye");
+case "Should translate": write("oh oh");   ///After default, should not translate!
+};

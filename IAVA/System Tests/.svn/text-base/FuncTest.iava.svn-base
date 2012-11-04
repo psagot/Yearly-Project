@@ -1,0 +1,45 @@
+/*
+ *	Extensive test that verifies existence of most features of the language.
+ *  Avoids reading input.
+ *
+ */
+
+// Single line comment
+
+void method1() {
+	write(1);
+	return; 
+}
+
+integer method2() {
+	write(2);
+	integer i = 3;
+	$ = i;
+}
+
+real f() {
+	$ = 1.0;
+}
+
+boolean t() {
+	$ = true;
+}
+
+void go() {
+ 	method1(); // Will print '1'
+ 	method2(); // Will print '2'
+ 	
+ 	writeln(f() + 2.0); 
+ 	writeln(3.0 / f()); 
+ 
+ 	writeln((t() || false) && !t()); // Will print false
+ 	writeln(t() || false && !t()); 
+ 	
+ 	string s = "abc";
+ 	
+ 	return; // Will terminate method
+}
+
+go();
+
+ 

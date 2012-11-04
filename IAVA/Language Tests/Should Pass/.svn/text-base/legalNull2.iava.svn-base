@@ -1,0 +1,10 @@
+struct s {
+  integer i;
+};
+
+struct s myS = null;
+
+if(myS==null)
+  write("good");
+else if(myS != null)
+  write("bad");

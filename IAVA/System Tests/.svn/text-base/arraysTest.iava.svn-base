@@ -1,0 +1,27 @@
+/** Tests arrays */
+	
+/******* A simple array + initialization ******/
+integer a1[] = {1, 2, 3, 4, 5};
+write("Numbers from 1 to 5: ");
+for (integer i=0; i<5; i++) {
+	write(a1[i]);
+	write("  ");
+}
+writeln();
+	
+/******* A two-dimensional array ******/
+	
+integer a2[][] = {{1,0,0},{0,1,0},{0,0,1}};
+writeln("The I matrix: ");
+for (integer i=0; i<3; i++) {
+	for (integer j=0; j<3; j++) {
+		write(a2[i][j]);
+		write(" ");
+	}
+	writeln();
+}
+	
+/******* A dynamically allocated array ******/
+	
+integer N = 5;
+integer a3[N];

@@ -1,0 +1,9 @@
+string[][] func() {
+  $ = null;
+}
+
+string[][] a = func();
+string b[][];
+b = func();
+
+char[] arr = strToArr(func()[0][0]);

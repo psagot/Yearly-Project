@@ -1,0 +1,9 @@
+struct s {
+	integer x;
+};
+
+struct s { // error - can't declare same struct type twice.
+	integer x;
+	integer y;
+};
+	

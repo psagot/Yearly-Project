@@ -1,0 +1,2 @@
+void f(integer x) {};
+f(3.5);

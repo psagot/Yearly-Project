@@ -1,0 +1,26 @@
+/** Computes the average of 3 numbers */
+
+real n1, n2, n3;
+real avg;
+
+n1 = 7.3;
+write("First number is: " + n1);
+writeln();
+
+n2 = 2.6;
+write("Second number is: " + n2);
+writeln();
+
+n3 = 124.2;
+write("Third number is: " + n3);
+writeln();
+	
+avg = computeAvg(n1, n2, n3);
+writeln("The average is " + avg);
+
+/* Returns the average */
+real computeAvg(real n1, real n2, real n3) {
+
+	$ = (n1+n2+n3) / 3.0;
+	return;
+}

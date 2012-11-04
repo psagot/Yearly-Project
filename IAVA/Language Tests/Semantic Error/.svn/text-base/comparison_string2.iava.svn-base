@@ -1,0 +1,2 @@
+// We do not allowe using'==' on strings
+boolean a = "2" == "3";

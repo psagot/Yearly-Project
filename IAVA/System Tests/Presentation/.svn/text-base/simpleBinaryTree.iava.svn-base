@@ -1,0 +1,69 @@
+/* Constants */
+
+integer amount = 20;
+integer upperLimit = 100;
+
+
+/* Main program */ 
+
+integer numbers[] = genArr(amount,upperLimit);
+writeln("Here are " + amount + " random numbers:");
+printArr(numbers);
+writeln("Adding to tree...");
+struct treeNode root = arrToTree(numbers);
+writeln("printing the tree in order :");
+printTreeInOrder(root);
+
+
+/* Functions */
+
+integer[] genArr(integer size, integer upperLimit){
+	integer arr[size];
+	for(integer i ; i<size ; i++){
+		arr[i] = random(upperLimit)+1; //random number from 1 to upperLimit;
+	}
+	$ = arr;
+}
+
+void printArr(integer[] arr){
+	for(integer i ; i< arrayLength(arr);i++){
+		write(arr[i] + " ");
+	}
+	writeln();
+}
+
+struct treeNode arrToTree(integer[] arr){
+	$ = null;
+	for(integer i ; i< arrayLength(arr);i++){
+		$ = addToTree(arr[i],$);
+	}
+}
+
+struct treeNode addToTree(integer value,struct treeNode root){
+	if (root == null){
+		$.value = value;
+		return;
+	}
+	if (value > root.value)
+		root.rSon = addToTree(value, root.rSon);
+	else
+		root.lSon = addToTree(value, root.lSon);
+	$ = root;
+}
+
+void printTreeInOrder(struct treeNode root){
+	if(root == null)
+		return;
+	printTreeInOrder(root.lSon);
+	write(root.value + " ");
+	printTreeInOrder(root.rSon);
+}
+
+
+/* Structures */
+
+struct treeNode {
+	integer value;
+	struct treeNode rSon;
+	struct treeNode lSon;
+};

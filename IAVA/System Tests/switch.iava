@@ -1,0 +1,12 @@
+integer x = 10;
+switch(x) {
+case 2: writeln(2);
+case 10: writeln(10);
+default: writeln("default");
+}
+	
+x = 11;
+switch(x) {
+case 10: writeln(10);
+default: writeln("default");
+}

@@ -1,0 +1,14 @@
+integer x;
+integer y;
+3++;
+x + y = 5;
+x + y += 5;
+3 += 5;
+3 -= 5;
+3 *= 5;
+3 /= 5;
+true = false;
+true &= false;
+3 = x;
+3 = x*y;
+

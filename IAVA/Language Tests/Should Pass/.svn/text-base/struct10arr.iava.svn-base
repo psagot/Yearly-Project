@@ -1,0 +1,17 @@
+struct myStruct {
+
+	integer[] x1;
+	integer x2[];
+	string[] s1;
+	string s2[];
+
+};
+
+integer i[5];
+string str[5];
+struct myStruct s;
+s.x1 = i;
+s.x2 = i;
+s.s1 = str;
+s.s2 = str;
+

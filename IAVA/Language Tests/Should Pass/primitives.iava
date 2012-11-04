@@ -1,0 +1,34 @@
+
+///Tests declarations of primitive variables (defined globally and locally)
+
+integer i1, i2;
+integer i = 10;
+boolean b1, b2;
+boolean b = true;
+char c1, c2;
+char c = 'a';
+real d1, d2;
+real d = 5.5, d8 = .8;
+string s1 = "Hello\t\b\n", s2="\"\'\\", s3="\155" + "\77" + "7";
+
+integer j2;
+string s;
+
+void go() {
+
+	integer i1,i2;
+	integer i = 10;
+	boolean b1, b2;
+	boolean b = true;
+	char c1, c2;
+	char c = 'a';
+	real d1, d2;
+	real d = 5.5;
+
+	string s1 = "Hello";
+	integer j2;
+}
+
+
+go();
+

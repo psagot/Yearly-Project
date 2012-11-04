@@ -1,0 +1,9 @@
+integer a = 5;
+
+if(1 == a) {
+	writeln("1");	
+} else if (a == 2) {
+	writeln("2");
+} else {
+	writeln("else");
+}			

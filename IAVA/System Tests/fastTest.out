@@ -1,0 +1,13 @@
+Compilation started!
+Compilation ended with errors!
+
+Error #1: Error in file: parser.IavaTreeWalker  line 3:14 -  Error: Not all the initializers are in the same type 
+Error #2: Error in file: parser.IavaTreeWalker  line 5:14 -  Error: Not all the initializers are in the same dimension 
+Error #3: Error in file: parser.IavaTreeWalker  line 5:0 -  Error: The difinition type(on the left) doesn't match the initialization type
+Error #4: Error in file: parser.IavaTreeWalker  line 6:16 -  Error: Not all the initializers are in the same type 
+Error #5: Error in file: parser.IavaTreeWalker  line 6:14 -  Error: Not all the initializers are in the same dimension 
+Error #6: Error in file: parser.IavaTreeWalker  line 6:0 -  Error: The difinition type(on the left) doesn't match the initialization type
+Error #7: Error in file: parser.IavaTreeWalker  line 10:0 -  Error: array initialization should have array brackets 
+Error #8: Error in file: parser.IavaTreeWalker  line 13:8 -  Error: cannot initialize fixed size array 
+Semantic errors found. Terminating...
+Compilation process failed. Please view the compilation errors.

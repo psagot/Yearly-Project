@@ -1,0 +1,51 @@
+/* This test contains few unusual formats of the text such as
+   		unexpected breaklines or lack of them */
+
+
+
+/* int f() {return 1;} */
+
+/* int f() {return 1;} 
+*/
+
+/* 
+int f() {return 1;} */
+
+/* 
+int f() {return 1;} 
+*/
+
+/* 
+
+int f() {return 1;} 
+
+*/
+
+
+integer x =
+	 5;
+
+integer y = 6;
+
+writeln(x*
+
+
+
+
+
+
+												y
+
+												)
+;
+writeln
+(f(1,
+2
+,3
+))
+;
+
+integer f(integer a
+	, integer b,
+	 integer c) { $=4 
+;}

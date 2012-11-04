@@ -1,0 +1,13 @@
+struct A {
+	integer a;
+	real b;
+	string c;
+	boolean d;
+};
+
+struct A a;
+
+a.a = 5;
+a.b = 20.0;
+a.c = "aaa";
+a.d = true;

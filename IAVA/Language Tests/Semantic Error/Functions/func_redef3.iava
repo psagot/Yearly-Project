@@ -1,0 +1,4 @@
+// Not sure if this shiuld be pass or semantic error
+
+void f() {write("hello");}
+integer f() {write("hello");}

@@ -1,0 +1,5 @@
+integer f() {}
+
+
+integer x = f;
+   

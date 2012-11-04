@@ -1,0 +1,29 @@
+integer n = 1 + 1;
+n = 1 + 1;
+n = 1 + n;
+n = n + 1;
+n = n + n;
+integer n2 = 1 + n;
+integer n3 = n + 1;
+integer n4 = n + n;
+
+integer f() { $ = 1;}
+
+
+integer m = f() + 1;
+m = f() + 1;
+m = f() + n;
+m = f() + 1;
+m = f() + n;
+integer m2 = f() + n;
+integer m3 = f() + 1;
+integer m4 = f() + n;
+
+integer k = 1 + f();
+k = 1 + f();
+k = 1 + f();
+k = n + f();
+k = n + f();
+integer k2 = 1 + f();
+integer k3 = n + f();
+integer k4 = n + f();

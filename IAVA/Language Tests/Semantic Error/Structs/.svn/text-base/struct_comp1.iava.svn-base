@@ -1,0 +1,10 @@
+struct A {
+	   integer x;
+};
+
+
+
+struct A a1;
+struct B a2;
+
+boolean y = (a1 == a2);

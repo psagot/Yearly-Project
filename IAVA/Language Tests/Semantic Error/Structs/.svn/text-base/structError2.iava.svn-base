@@ -1,0 +1,10 @@
+struct B {
+	integer a[10];	
+};
+
+struct A {
+	struct B b;
+};
+
+struct A a;
+a.b.c; // error - no field c

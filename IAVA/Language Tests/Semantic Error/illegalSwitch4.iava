@@ -1,0 +1,11 @@
+struct s {
+integer i;
+};
+
+struct s myS;
+
+switch(myS) {    //switch allowed only on primitives (except string)
+
+case null: write("null");
+
+}

@@ -1,0 +1,6 @@
+if(true) {
+	if(false)
+		write("You should not see this");
+	else
+		write("OK");
+}

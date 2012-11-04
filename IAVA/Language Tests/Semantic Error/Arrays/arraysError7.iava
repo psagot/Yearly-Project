@@ -1,0 +1,1 @@
+integer f = {4,4,4}; //type mismatch.

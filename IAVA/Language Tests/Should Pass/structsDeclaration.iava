@@ -1,0 +1,5 @@
+struct S s;
+struct S {
+	integer y;
+	real z;
+};

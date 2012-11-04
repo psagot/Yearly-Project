@@ -1,0 +1,7 @@
+// Simple with return value
+
+integer f() {
+	$ = 5;
+}
+
+integer i = f()	;		

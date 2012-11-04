@@ -1,0 +1,3 @@
+if(true)
+		integer x;
+x = 5;

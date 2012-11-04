@@ -1,0 +1,25 @@
+#!/bin/csh
+set SCRIPT=`readlink -f $0`
+set SCRIPTPATH=`dirname $SCRIPT`
+cd $SCRIPTPATH
+cd ../bin
+if ( -e "$1" ) then
+	set src_file="$1"
+else
+	set src_file="$SCRIPTPATH/$1"
+endif
+
+java -cp .:../antlr-3.4-complete.jar parser/InputHandler "$src_file"  __javawrap__.java >& tmp.out 
+if(-e __javawrap__.java ) then
+	javac __javawrap__.java 
+	if(-e __javawrap__.class ) then
+		java __javawrap__
+		rm __javawrap__.java __javawrap__.class tmp.out
+	else
+		javac __javawrap__.java
+	    rm __javawrap__.java tmp.out
+	endif
+else
+	cat tmp.out
+	rm tmp.out
+endif

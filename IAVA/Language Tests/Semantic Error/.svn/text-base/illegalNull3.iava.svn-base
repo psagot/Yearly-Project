@@ -1,0 +1,3 @@
+string s;
+if (s!=null)
+   write("illegal");

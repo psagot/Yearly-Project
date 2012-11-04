@@ -1,0 +1,19 @@
+struct B {
+	integer a[2][2][2][2];
+};
+
+struct A {
+	struct B b;
+	integer v[2][2];
+
+};
+
+struct A a1[5];
+struct A a2[5][5];
+
+a1[5].v = a1[5].v;
+a2[2][2].v = a2[2][2].v;
+
+//a2[2][2].v[1][1] = 5;
+
+//integer v[2][2][2][2] = a.b.a[0][0][0][0];

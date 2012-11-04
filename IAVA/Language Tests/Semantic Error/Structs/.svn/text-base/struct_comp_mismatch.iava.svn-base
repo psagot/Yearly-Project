@@ -1,0 +1,17 @@
+// Actually, as of iteration2 we do not allow any struct
+// comparison. If inm the future we will allow comparing structs of same 
+// type, this test will guard us from pitfalls.
+
+struct A {
+	   integer x;
+};
+
+struct B {
+	   integer x;
+};
+
+
+struct A a;
+struct B b;
+
+boolean y = (a == b);

@@ -1,0 +1,3 @@
+// We don't allow >, <, =<, >= operations on booleans
+
+boolean b = ture > false;

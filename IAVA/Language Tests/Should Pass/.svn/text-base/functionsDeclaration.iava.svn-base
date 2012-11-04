@@ -1,0 +1,21 @@
+integer x;
+struct S {
+	integer y;
+	real z;
+};
+struct S s;
+func1(x, s);
+func2();
+
+write("Hello1");
+
+integer func1(integer x, struct S s) {
+	write("OK1");
+	$ = 4;
+}
+
+void func2() {
+	write("OK2");
+}
+
+write("Hello2");

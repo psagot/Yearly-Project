@@ -1,0 +1,35 @@
+/* Test castings */
+
+string s = "1234";
+if (1234 == stringToInt(s) && 3123 == stringToInt("3123"))
+	writeln("Yay!");
+else
+	writeln("Bah..!");
+	
+s = "1.23";
+if (1.23 == stringToReal(s) && 3123.333 == stringToReal("3123.333"))
+	writeln("Yay!");
+else
+	writeln("Bah..!");
+		
+integer i = -6;
+if (strCmp("-6",intToString(i)) == 0 && strCmp("3123",intToString(3123)) == 0)
+	writeln("Yay!");
+else
+	writeln("Bah..!");
+		
+if (-6.0 == intToReal(i) && 3165.0 == intToReal(3165))
+	writeln("Yay!");
+else
+	writeln("Bah..!");
+
+real d = -6.45;
+if (strCmp("-6.45",realToString(d)) == 0 && strCmp("3.123",realToString(3.123)) == 0)
+	writeln("Yay!");
+else
+	writeln("Bah..!");
+
+if (-6 == realToInt(d) && 31 == realToInt(31.65))
+	writeln("Yay!");
+else
+	writeln("Bah..!");

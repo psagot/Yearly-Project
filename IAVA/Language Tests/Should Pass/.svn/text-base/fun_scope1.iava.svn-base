@@ -1,0 +1,4 @@
+integer x;
+void f() {
+	 integer x;
+}

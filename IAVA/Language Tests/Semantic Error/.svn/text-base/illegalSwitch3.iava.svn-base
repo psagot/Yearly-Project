@@ -1,0 +1,7 @@
+integer[] int_arr;
+
+switch(int_arr) {	//switch allowed only on primitives (except string)
+
+case null: write("null");
+
+}

@@ -1,0 +1,12 @@
+struct B {
+	integer a[10];	
+	integer x;
+};
+
+struct A {
+	struct B b;
+};
+
+struct A a;
+
+a.b.x[1]; // error - x is not from type array

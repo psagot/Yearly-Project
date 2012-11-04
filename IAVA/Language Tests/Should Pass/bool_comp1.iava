@@ -1,0 +1,3 @@
+boolean a, b;
+
+boolean c = a == b;

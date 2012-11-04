@@ -1,0 +1,99 @@
+
+///function calls:
+stam(4,2);
+foo();
+writeln("Hello World");
+
+///Basic primitive types:
+integer x1, x2 = 5;
+real r1, r2 = 3.5;
+boolean b = true;
+string s = "hello";
+
+///Arrays:
+integer x_arr[5];
+boolean b_arr[2][1] = {{true}, {false}};
+string s_arr[1+1][x1+1];
+real r_arr[2] = {1.0, 2.0};
+
+
+///Expressions:
+integer int_expr1 = ((5+5) % (+4-(-2))) * x_arr[0];
+integer int_expr2 = (r_arr[0] >= r_arr[1]+2.0) ? x1 : x2++;
+boolean bool_expr1 = (!(7 > 7) || (b)) && (!false);
+integer question = (5==5) ? 1 : 0;
+
+//Conditions:
+if (7 > 5) write("hello");
+
+if (b) {
+	print("shalom");
+}
+else {
+	print("bye");
+	print("bye");
+}
+
+///loops:
+
+for (integer roo=1; roo<5; roo++) {
+	write("Hi!");
+}
+
+for (;;) write("!");
+
+for (real r = 5; r<7.0;) {
+}
+integer x = 2;
+while (x != 5) {
+	x++;
+}
+
+while (false)
+	x *= x;
+	
+do {x=4; x=8;} while (!false);	
+
+switch (x+4) {
+	case 5: boolean bb = true; break;
+	case 4: case 7: { boolean bbb = false; }
+	default: write("hi!");
+}
+
+///Functions:
+void foo(){}
+
+integer x=5,y;
+
+real stam(integer y, integer z){
+integer a=z;
+if (5>7)
+	return;
+integer x = z;
+}
+
+struct point bla(){
+$.x =5;
+$.y = -2;
+}
+string s1 = "hi",s;			///Init s to "";
+
+boolean[] retArr(integer[] intArr) {
+	///Comment
+	$[0] = true;
+	$[1] = false;
+}
+
+///strucures:
+struct point {
+	real x;
+	real y;
+};
+
+struct point a;
+a.x = 7;
+a.y = -2;
+
+
+
+

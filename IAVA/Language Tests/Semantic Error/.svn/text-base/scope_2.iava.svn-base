@@ -1,0 +1,4 @@
+if(true) {
+		integer x = 5;
+}
+writeln(x);

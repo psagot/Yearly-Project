@@ -1,0 +1,19 @@
+/* Will test for special function "go".
+   Should compile normally and output nothing.*/
+
+integer gogogo() {
+	$ = 0;
+}
+
+void goGoGOgOgo() {
+	return;
+}
+
+void go() {
+	integer voidgo = 3;
+	string gogoGoGOgO = "void go";
+	gogogo();
+	goGoGOgOgo();
+}
+
+go();

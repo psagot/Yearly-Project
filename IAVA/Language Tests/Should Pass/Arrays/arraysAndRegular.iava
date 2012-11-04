@@ -1,0 +1,16 @@
+integer i1, i2[5], i3;
+string s1, s2[5], s3, s4[7], s5[], s6[8];
+
+i1 = 5;
+i2[2] = i2[0]+i1*i3;
+strCmp(s1,s3);
+s2[0] = s4[1] = s6[7] = "Hello";
+
+struct s {
+   string s1[5];
+   integer x;
+};
+
+struct s str1, str2[2], str3;
+str2[0].x = 7;
+str3.s1[2] = "Hello";

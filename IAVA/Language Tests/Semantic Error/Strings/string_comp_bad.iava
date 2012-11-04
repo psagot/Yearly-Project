@@ -1,0 +1,6 @@
+// We do not allow shallow string comparisons!
+// Use stdlib functions instead
+
+string a = "aaa";
+string b = "bbb";
+boolean x = (a == b);

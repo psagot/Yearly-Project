@@ -1,0 +1,3 @@
+// Simple check that comparisons works
+
+boolean a = 2 > 3;

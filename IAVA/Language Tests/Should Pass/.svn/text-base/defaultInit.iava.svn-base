@@ -1,0 +1,31 @@
+boolean cond1;				///Init to true
+integer i, x=4;				///Init only i to 0
+real r, r2=3.0;				///Init onl r to 0.0
+char c;						///Init c to 'a'
+string s1 = "hi",s;			///Init s to "";
+struct str varName;			///Add new __
+
+integer x1[2];				///Initialize with new 
+integer x2[] = {3,4};		///change [2] to [] and keep initialization
+boolean b_arr[7][8][9];		///Initialize 3 dimensions.
+struct str varName2[5];		///Initialize an array of a class
+
+integer[] y = {1,2};
+integer z[] = {1,2};
+
+void aa(integer[] a) {}
+
+void bb(integer a[]) {}
+
+struct str {
+
+	integer i;
+	real r[5][7];
+	struct str2 str2Var;
+	boolean b;
+
+};
+
+struct str2 {
+	string s;
+};

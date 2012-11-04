@@ -1,0 +1,3 @@
+integer x;
+integer y;
+boolean z = (x = y); // Notice that this is '=' and not '=='

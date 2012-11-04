@@ -1,0 +1,24 @@
+#!/bin/bash
+
+all_tests="arraysTest averageTest ConditionsTest fastTest format FuncNamingTest funcsSpec FuncTest list loopsTest semantics structs varsSpec stdLib arrayInit arrayParameters writeln write arraysBasic for functions initTests structBasic switch while castingTest"
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+echo $DIR
+tests_num=0
+tests_pass=0
+for test in $all_tests
+do
+	let tests_num=tests_num+1
+	../cmdLine/iava "${DIR}/${test}.iava" | diff - "${DIR}/${test}.out" > tmp
+	if [[ ! -s tmp ]];
+	then
+		let tests_pass=tests_pass+1
+		echo Test $test Passed.
+	else
+		cat tmp > ${test}.diff
+		echo Test $test Failed. see ${test}.diff for details.
+	fi
+done
+rm tmp
+echo $tests_pass of $tests_num tests passed.

@@ -1,0 +1,9 @@
+// Using return statement
+
+integer f() {
+	if (true)
+		return;	
+	$ = 5;
+}
+
+integer i = f();

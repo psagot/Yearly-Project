@@ -1,0 +1,11 @@
+integer foo(integer[] intArray, integer size) {
+	$ = 1;
+	for(integer i=size-1; i>=0; i--) {
+		$ *= intArray[i];
+	}
+	return;
+}
+
+integer arr[] = {1, 5, 4};
+writeln(foo(arr, 3));
+

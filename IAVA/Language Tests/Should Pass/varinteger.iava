@@ -1,0 +1,4 @@
+integer n = 100;
+n = 123;
+integer m;
+n = m;

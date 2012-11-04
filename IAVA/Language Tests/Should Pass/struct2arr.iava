@@ -1,0 +1,9 @@
+// Struct that contains an array (1)
+
+
+struct A {
+	integer v[2];
+};
+
+struct A a;
+a.v[0] = 5;

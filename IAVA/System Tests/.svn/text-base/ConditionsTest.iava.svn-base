@@ -1,0 +1,22 @@
+/** Tests conditions (if, switch). Only good should be printed. */
+
+boolean b1 = true, b2 = false;
+integer i = 100, j = 200;
+	
+if (i<j)
+	write("good\n");
+else
+	write("bad\n");
+		
+if (b1) {
+	write("good\n");
+}
+if (b2 || b2)
+	write("bad"); 
+		
+switch (i) {
+	
+	case 100: write("good\n");
+	case 200: write("bad\n");
+	default: write("bad\n");
+}

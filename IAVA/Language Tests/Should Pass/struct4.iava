@@ -1,0 +1,12 @@
+struct B {
+	integer a[10];	
+};
+
+struct A {
+	struct B b;
+};
+
+
+struct A a;
+
+a.b.a[4] = 5;

@@ -1,0 +1,2 @@
+string str = "abcd";
+str[2] = 'c';

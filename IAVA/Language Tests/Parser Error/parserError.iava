@@ -1,0 +1,7 @@
+// Simple test that demonstrates catching a parser error
+
+
+
+void go() {
+	integer i
+}

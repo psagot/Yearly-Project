@@ -1,0 +1,7 @@
+// Both variable and function have the same name
+
+
+
+integer f() { write("hello"); }
+
+integer f;

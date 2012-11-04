@@ -1,0 +1,10 @@
+string[] str_arr = null;
+integer[] int_arr = null;
+real r_arr[] = null;
+char c_arr[][] = null;
+
+if (str_arr == null)
+   write("it's null");
+   
+if (c_arr != null)
+  write("bad");   

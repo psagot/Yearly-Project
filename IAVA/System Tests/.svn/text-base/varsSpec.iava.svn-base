@@ -1,0 +1,36 @@
+integer x;
+integer y;
+integer z;
+// Error - duplication of z
+integer z;
+go();
+void go() {
+	integer x = 1;
+	if (x == 1) {
+		integer y = 0;
+	}
+	integer y=1;
+	if (y == 1) {
+	}
+
+	if (y == 1)
+		integer z = 0;
+	integer z = 1;
+	
+	for (integer i=0; i<10; i++)
+		i++;
+	integer t1;
+	integer i;
+	while(true)
+		integer t2;
+	integer t2;
+}
+
+void notGood() {
+	integer x=1;
+	integer y;
+	if (x == 1) {
+		//Error - y duplication
+		integer y;
+	}
+}

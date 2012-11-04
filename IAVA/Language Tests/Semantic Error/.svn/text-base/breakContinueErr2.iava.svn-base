@@ -1,0 +1,1 @@
+continue; // error - continue outside loop is forbidden

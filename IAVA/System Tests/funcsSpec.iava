@@ -1,0 +1,14 @@
+integer func1(integer x, integer y) {
+}
+
+integer func1(integer x, integer y, integer z) {
+}
+
+integer func1(integer x, boolean y) {
+}
+
+integer x, y;
+real z;
+func1(x, y);
+// No matching function but won't be error because the FunctTreeWalker will stop the flow before.
+func1(x, z);

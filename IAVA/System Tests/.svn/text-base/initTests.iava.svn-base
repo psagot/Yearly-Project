@@ -1,0 +1,6 @@
+integer i;
+real r;
+boolean b;
+string s;
+
+writeln(s + r + b + i);

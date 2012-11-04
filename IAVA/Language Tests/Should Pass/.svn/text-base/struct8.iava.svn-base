@@ -1,0 +1,14 @@
+struct A {
+	integer a;
+	real b;
+	string c;
+	boolean d;
+};
+
+struct A a;
+
+
+integer i = a.a;
+real i2 = a.b;
+string s = a.c;
+boolean bo = a.d;

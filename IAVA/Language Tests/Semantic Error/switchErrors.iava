@@ -1,0 +1,14 @@
+integer x;
+
+switch(x) {
+	case(0):
+		integer y;
+		break;
+	case(true):
+	case(2):
+		integer z;
+		y = z;
+	default:
+		write("not valid");
+
+}

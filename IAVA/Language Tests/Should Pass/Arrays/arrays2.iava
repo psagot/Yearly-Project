@@ -1,0 +1,7 @@
+integer[] func() {
+  $ = null;
+}
+
+integer[] a = func();
+integer b[] = func();
+write(func()[0]);

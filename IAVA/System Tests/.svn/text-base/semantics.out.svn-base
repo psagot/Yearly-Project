@@ -1,0 +1,12 @@
+Compilation started!
+Compilation ended with errors!
+
+Error #1: Error in file: parser.IavaTreeWalker  line 5:9 -  Error: array index should be integer 
+Error #2: Error in file: parser.IavaTreeWalker  line 21:7 -  Error: can't add  INTEGER to REAL
+Error #3: Error in file: parser.IavaTreeWalker  line 22:7 -  Error: can't multiply  INTEGER to REAL
+Error #4: Error in file: parser.IavaTreeWalker  line 24:7 -  Error: STRING is not an arithmetic type
+Error #5: Error in file: parser.IavaTreeWalker  line 24:3 -  Error: can't assign STRING to REAL
+Error #6: Error in file: parser.IavaTreeWalker  line 36:7 -  Error: WHILE condition must be boolean
+Error #7: Error in file: parser.IavaTreeWalker  line 37:10 -  Error: FOR condition must be boolean
+Semantic errors found. Terminating...
+Compilation process failed. Please view the compilation errors.

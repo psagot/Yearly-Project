@@ -1,0 +1,28 @@
+
+///Tests various expressions:
+
+void go() {
+
+	integer x,y;
+	integer z1 = (x + y) - (2 * 3) / (2); //error 
+	integer z2 = -z1 % 5;
+	integer z3 = (x++) - (++x) * (x--) + (--x);
+	integer z4 = (z2 > z3) ? 8 : 9;
+	z1 *= 5;
+	z2 /= 4;
+	z3 %= 7;
+	y -= 0;
+	y += 9;
+	
+	if (z1>5 || z2<2 || z3>=70 || y<=100)
+		x += 7;
+		
+	if (y!=7 && y!=5)
+		boolean b = true;
+		
+	boolean f = false;
+	f &= true;
+	f |= false; 	
+}
+
+

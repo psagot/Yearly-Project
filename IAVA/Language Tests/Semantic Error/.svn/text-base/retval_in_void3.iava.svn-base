@@ -1,0 +1,9 @@
+struct A {
+	   integer x;
+};
+
+void f() {
+	 struct A a;
+	 $ = a;
+}
+

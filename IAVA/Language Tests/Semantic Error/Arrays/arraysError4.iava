@@ -1,0 +1,1 @@
+integer[] b = {3,4.5,5}; //type error

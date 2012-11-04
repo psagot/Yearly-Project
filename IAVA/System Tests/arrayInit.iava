@@ -1,0 +1,16 @@
+
+integer a[] = {2, 4, 5};
+integer x = 3;
+string s[x];
+s[0] = "s";
+s[1] = "ss";
+s[2] = "sss";
+
+integer arr[x][x];
+for(integer i; i<x; i++)
+	for(integer j=0; j<x; j++)
+		arr[i][j] = i+j;
+real r[][] = { { 0.0, 0.1, 0.2},
+			{1.0, 1.1, 1.2},
+			{2.0, 2.1, 2.2} } ;
+writeln(s[0] + s[1] + s[2] + arr[2][2] + r[2][1]);

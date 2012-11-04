@@ -1,0 +1,5 @@
+integer f() {}
+integer g() {}
+
+boolean b = (f == g);
+   

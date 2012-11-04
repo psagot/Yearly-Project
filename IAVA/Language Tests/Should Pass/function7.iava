@@ -1,0 +1,11 @@
+// Nested return statement
+
+integer f(integer x) {
+	if(x == 1) {
+		$ = 1;
+		return;	
+	}
+	$ = f(x-1);
+}
+
+f(100);

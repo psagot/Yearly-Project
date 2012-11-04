@@ -1,0 +1,22 @@
+void foo(integer i, real r, boolean b, string s) {
+	writeln("called foo with " + i + " " + r + " " + b + " " + s);
+}
+
+void foo(real r, integer i, boolean b, string s) {
+	writeln("called foo with " + r + " " + i + " " + b + " " + s);
+}
+
+real PI() {
+	$ = 3.14;
+	return;
+}
+
+integer i = 10;
+real r = 5.0;
+boolean b = true;
+string s = "some string";
+foo(r, i, b, s);
+foo(i, r, b, s);
+foo(i, PI(), b, s);
+
+

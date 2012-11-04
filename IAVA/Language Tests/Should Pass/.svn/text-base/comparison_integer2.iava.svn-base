@@ -1,0 +1,8 @@
+// Check all variants with integers and assignment to boolean variable(1)
+
+boolean a = 2 > 3;
+a = 2 >= 3;
+a = 2 < 3;
+a = 2 <= 3;
+a = 2 == 3;
+a = 2 != 3;

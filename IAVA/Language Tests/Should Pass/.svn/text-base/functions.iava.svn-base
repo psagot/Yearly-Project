@@ -1,0 +1,54 @@
+
+///Tests function declarations and calls
+
+///A simple struct:
+struct st1 {
+	integer x1;
+	real x2;
+};
+
+///Declaring some basic functions:
+
+void voidFunc() 			{ integer i; }
+integer intFunc(integer i) 			{ /*return 0;*/ $ = 0; }
+integer intFunc2(integer i)			{ /*return 1;*/ $ = 1; }
+real realFunc(real d) { /*return 1.0;*/ $ = 1.0; }
+boolean boolFunc(boolean b) { /*return false;*/ $ = false; }
+string stringFunc(string s) { /*return "Hello!";*/ $ = "Hello!"; }
+
+///A function that returns a struct:
+struct st1 structFunc() 	{ 
+	struct st1 st;
+	st.x1 = intFunc(7);
+	st.x2 = realFunc(100.0);
+	//return st;
+	$ = st;
+}
+
+integer[] arrFunc(integer size, integer arr[]) {
+	integer a[5];
+	a[0] = intFunc2(5) / 2;
+	//return a;
+	$ = a;
+} 
+
+//Main function:
+void go() {
+
+	voidFunc();
+	real d = realFunc(5.5);
+	
+	boolean b;
+	for (integer i=0; i<intFunc(3); i++) {
+		b = !b;
+	}
+	
+	if (b == boolFunc(b))
+		write(stringFunc("123"));
+	
+	///Function within function:
+	integer x = intFunc(intFunc2(7));
+	
+	integer arr1[5];
+	integer z = arrFunc(5, arr1)[0];
+}

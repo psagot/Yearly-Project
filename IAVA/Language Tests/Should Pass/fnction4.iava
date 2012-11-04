@@ -1,0 +1,14 @@
+// Function recieving and returning a struct
+
+struct A f(struct A a) {
+	$.x = a.x;
+}
+
+
+struct A {
+	real x;
+};
+
+struct A a;
+a.x = 1.0;
+struct A a2 = f(a);

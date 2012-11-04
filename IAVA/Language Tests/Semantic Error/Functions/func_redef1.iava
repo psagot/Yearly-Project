@@ -1,0 +1,4 @@
+// Exact duplicate
+
+void f() {write("hello");}
+void f() {write("hello");}

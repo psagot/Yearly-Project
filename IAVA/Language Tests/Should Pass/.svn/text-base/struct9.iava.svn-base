@@ -1,0 +1,14 @@
+struct B {
+	struct A a;
+};
+
+struct A {
+	struct B b;
+};
+
+
+struct A a;
+struct B b;
+
+b = a.b;
+a = b.a; // Norice, b is null at this point so b.a is runtime error.

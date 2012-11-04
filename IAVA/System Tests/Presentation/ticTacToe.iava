@@ -1,0 +1,96 @@
+///Checks whether player "playerNum" won the game.
+boolean checkForWin(integer playerNum, string[][] board) {
+	string sign = (playerNum == 1) ? "X" : "O";
+	if (strCmp(board[0][0],sign)==0 && strCmp(board[0][1],sign)==0 && strCmp(board[0][2],sign)==0) $ = true;
+	if (strCmp(board[1][0],sign)==0 && strCmp(board[1][1],sign)==0 && strCmp(board[1][2],sign)==0) $ = true;
+	if (strCmp(board[2][0],sign)==0 && strCmp(board[2][1],sign)==0 && strCmp(board[2][2],sign)==0) $ = true;
+	if (strCmp(board[0][0],sign)==0 && strCmp(board[1][0],sign)==0 && strCmp(board[2][0],sign)==0) $ = true;
+	if (strCmp(board[0][1],sign)==0 && strCmp(board[1][1],sign)==0 && strCmp(board[2][1],sign)==0) $ = true;
+	if (strCmp(board[0][2],sign)==0 && strCmp(board[1][2],sign)==0 && strCmp(board[2][2],sign)==0) $ = true;
+	if (strCmp(board[0][0],sign)==0 && strCmp(board[1][1],sign)==0 && strCmp(board[2][2],sign)==0) $ = true;
+	if (strCmp(board[0][2],sign)==0 && strCmp(board[1][1],sign)==0 && strCmp(board[2][0],sign)==0) $ = true;
+}
+
+
+void initBoard(string[][] board) {
+	for (integer i=0; i<3; i++) 
+		for (integer j=0; j<3; j++)
+			board[i][j] = " ";
+}
+
+
+///Draws the board
+void drawBoard(string[][] board) {
+	writeln("\n|-------------|");
+	for (integer i=0; i<3; i++) {
+			write("| " + board[i][0] + " || " + board[i][1] + " || " + board[i][2] + " |");
+		writeln("\n|-------------|");	
+	}
+}
+
+
+
+
+///Executes a single move:
+boolean nextMove(string[][] board, integer playerNum) {
+
+	integer nextMove;
+	drawBoard(board);	
+	while (true) {
+		write("Player " + playerNum + ": Please enter your next move (a number between 1 and 9, -1 to exit): "); 
+		nextMove = readInt();
+		if (nextMove==-1) 
+			//$ = false;
+			break;		
+		
+		if ((nextMove > 9) || (nextMove < 1)) {
+			writeln("The cell number must be between 1 and 9");
+			continue;
+		}
+		if (strCmp(board[(nextMove-1)/3][(nextMove-1)%3], " ") != 0) {
+			writeln("The cell you requested is taken");
+			continue;
+		}
+		
+		board[(nextMove-1)/3][(nextMove-1)%3] = (playerNum==1) ? "X" : "O";
+		$ = true;
+		return;
+	}
+}
+
+
+
+
+string board[3][3];
+initBoard(board);
+integer currentPlayer = 1;
+integer turnsMade = 0;
+
+do {
+	if (!nextMove(board, currentPlayer)) 
+		break;	//User wanted to quit
+		
+	if (checkForWin(currentPlayer, board)) {
+		writeln("*** Player " + currentPlayer + " WON! ***");
+		drawBoard(board);
+		initBoard(board);
+		currentPlayer = 1;
+		turnsMade = 0;
+		continue;
+	}
+		
+	currentPlayer = (currentPlayer==1) ? 2 : 1;
+	turnsMade++;
+	
+	if (turnsMade==9) {
+		writeln("*** It's a tie. Amazing! ***");
+		drawBoard(board);
+		initBoard(board);
+		currentPlayer = 1;
+		turnsMade = 0;
+	}
+
+} while (true);
+
+writeln("Bye Bye");
+

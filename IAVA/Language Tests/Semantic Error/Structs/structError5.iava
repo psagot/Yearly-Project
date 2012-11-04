@@ -1,0 +1,4 @@
+struct s {
+	integer x;
+	boolean x; // error - field name duplication
+};

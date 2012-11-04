@@ -1,0 +1,2 @@
+void f() {write("hello");}
+void f(integer x) {write("hello");}

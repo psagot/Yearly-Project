@@ -1,0 +1,16 @@
+struct point {
+	integer x;
+	integer y;
+};
+
+struct point p1;
+struct point p2;
+struct point p3, p4;
+writeln(p1.x);
+writeln(p1.y);
+p2.x = 10;
+p2.y = 9;
+p3.x = p2.x + p2.y;
+p3.y = p2.x - p2.y;
+writeln(p3.x);
+writeln(p3.y);

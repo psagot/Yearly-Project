@@ -1,0 +1,13 @@
+
+integer[] a = {3,4,5}; //should pass
+integer[] b = {3,4.5,5}; //type error
+	
+integer[][] c = {{3,4},4}; //dimension error
+integer[][] d = {{3,4},4.5}; //dimension and type error
+integer[][] e = {{3,4},{4,5}}; //should pass.
+	
+	
+integer f = {4,4,4}; //type mismatch.
+integer g[] = {4,4,4}; //now ok.
+	
+integer h[5] ={1,2,3,4,5}; //should fail can't initialize fixed size array.

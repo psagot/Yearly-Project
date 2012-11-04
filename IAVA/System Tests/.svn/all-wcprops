@@ -1,0 +1,323 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/cs234311-svn/yp2011-g2/!svn/ver/670/trunc/IAVA/System%20Tests
+END
+FuncTest.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/cs234311-svn/yp2011-g2/!svn/ver/449/trunc/IAVA/System%20Tests/FuncTest.out
+END
+loopsTest.out
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cs234311-svn/yp2011-g2/!svn/ver/622/trunc/IAVA/System%20Tests/loopsTest.out
+END
+fastTest.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/cs234311-svn/yp2011-g2/!svn/ver/638/trunc/IAVA/System%20Tests/fastTest.out
+END
+FuncNamingTest.iava
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/cs234311-svn/yp2011-g2/!svn/ver/621/trunc/IAVA/System%20Tests/FuncNamingTest.iava
+END
+initTests.iava
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/initTests.iava
+END
+for.iava
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/for.iava
+END
+semantics.iava
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/cs234311-svn/yp2011-g2/!svn/ver/624/trunc/IAVA/System%20Tests/semantics.iava
+END
+structBasic.iava
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/structBasic.iava
+END
+arraysTest.out
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/cs234311-svn/yp2011-g2/!svn/ver/620/trunc/IAVA/System%20Tests/arraysTest.out
+END
+format.iava
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cs234311-svn/yp2011-g2/!svn/ver/621/trunc/IAVA/System%20Tests/format.iava
+END
+arrayInit.out
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/arrayInit.out
+END
+write.iava
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/write.iava
+END
+FuncTest.iava
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cs234311-svn/yp2011-g2/!svn/ver/622/trunc/IAVA/System%20Tests/FuncTest.iava
+END
+fastTest.iava
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cs234311-svn/yp2011-g2/!svn/ver/505/trunc/IAVA/System%20Tests/fastTest.iava
+END
+while.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/while.out
+END
+arraysTest.iava
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/cs234311-svn/yp2011-g2/!svn/ver/621/trunc/IAVA/System%20Tests/arraysTest.iava
+END
+list.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/cs234311-svn/yp2011-g2/!svn/ver/622/trunc/IAVA/System%20Tests/list.out
+END
+arrayParameters.iava
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/arrayParameters.iava
+END
+stdLib.out
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/stdLib.out
+END
+functions.iava
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/functions.iava
+END
+averageTest.iava
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/cs234311-svn/yp2011-g2/!svn/ver/621/trunc/IAVA/System%20Tests/averageTest.iava
+END
+list.iava
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cs234311-svn/yp2011-g2/!svn/ver/545/trunc/IAVA/System%20Tests/list.iava
+END
+initTests.out
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/initTests.out
+END
+for.out
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/for.out
+END
+semantics.out
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cs234311-svn/yp2011-g2/!svn/ver/638/trunc/IAVA/System%20Tests/semantics.out
+END
+structBasic.out
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/structBasic.out
+END
+format.out
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/cs234311-svn/yp2011-g2/!svn/ver/399/trunc/IAVA/System%20Tests/format.out
+END
+funcsSpec.out
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cs234311-svn/yp2011-g2/!svn/ver/638/trunc/IAVA/System%20Tests/funcsSpec.out
+END
+stdLib.iava
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/stdLib.iava
+END
+write.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/write.out
+END
+writeln.iava
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/writeln.iava
+END
+run_tests_it2
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cs234311-svn/yp2011-g2/!svn/ver/668/trunc/IAVA/System%20Tests/run_tests_it2
+END
+varsSpec.iava
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cs234311-svn/yp2011-g2/!svn/ver/624/trunc/IAVA/System%20Tests/varsSpec.iava
+END
+switch.out
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/switch.out
+END
+castingTest.iava
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/castingTest.iava
+END
+arrayParameters.out
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/arrayParameters.out
+END
+funcsSpec.iava
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/cs234311-svn/yp2011-g2/!svn/ver/622/trunc/IAVA/System%20Tests/funcsSpec.iava
+END
+arraysBasic.out
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/arraysBasic.out
+END
+loopsTest.iava
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/cs234311-svn/yp2011-g2/!svn/ver/622/trunc/IAVA/System%20Tests/loopsTest.iava
+END
+structs.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cs234311-svn/yp2011-g2/!svn/ver/624/trunc/IAVA/System%20Tests/structs.out
+END
+functions.out
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/functions.out
+END
+ConditionsTest.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/cs234311-svn/yp2011-g2/!svn/ver/440/trunc/IAVA/System%20Tests/ConditionsTest.out
+END
+switch.iava
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/switch.iava
+END
+averageTest.out
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/cs234311-svn/yp2011-g2/!svn/ver/620/trunc/IAVA/System%20Tests/averageTest.out
+END
+arrayInit.iava
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/arrayInit.iava
+END
+arraysBasic.iava
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/arraysBasic.iava
+END
+structs.iava
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/cs234311-svn/yp2011-g2/!svn/ver/624/trunc/IAVA/System%20Tests/structs.iava
+END
+while.iava
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/while.iava
+END
+ConditionsTest.iava
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/cs234311-svn/yp2011-g2/!svn/ver/621/trunc/IAVA/System%20Tests/ConditionsTest.iava
+END
+writeln.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/writeln.out
+END
+FuncNamingTest.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/cs234311-svn/yp2011-g2/!svn/ver/449/trunc/IAVA/System%20Tests/FuncNamingTest.out
+END
+varsSpec.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/cs234311-svn/yp2011-g2/!svn/ver/638/trunc/IAVA/System%20Tests/varsSpec.out
+END
+castingTest.out
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/cs234311-svn/yp2011-g2/!svn/ver/630/trunc/IAVA/System%20Tests/castingTest.out
+END

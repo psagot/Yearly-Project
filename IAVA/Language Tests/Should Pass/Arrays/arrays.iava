@@ -1,0 +1,33 @@
+
+///Tests arrays
+
+void go() {
+
+ arrays();
+}
+
+void arrays() {
+
+ integer N, a[5];
+ boolean b[N];
+ integer n[] = {1,1};
+ real d[] = {1.0, 2.0, 3.0};
+ foo(a);
+  
+ integer arr1[7][8];
+ integer r = (a[7]+a[7])*(3-n[0]);
+ arr1[7][8] = a[0];
+}
+
+boolean foo(integer[] a) {
+ a[4] = 7;
+}
+
+integer[] x = {1,2};
+integer y[] = {1,2};
+
+void aa(integer[] a) {}
+void bb(integer a[]) {}
+
+integer[][] e = {{3,4},{4,5}}; //should pass.
+integer g[] = {4,4,4}; // ok.

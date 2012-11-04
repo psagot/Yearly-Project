@@ -1,0 +1,5 @@
+// Simplest possible test
+
+void f() {}
+
+f();			
